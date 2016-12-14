@@ -1,0 +1,85 @@
+@media (min-width: 800px) {
+  body { 
+    background: url('images/background.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 45px;
+  }
+  .jumbotron{
+    background-color: transparent;
+    
+  }
+  
+  #logo{
+  
+    margin: 0 auto;
+  }
+  #shulName{
+    margin-top: -50px;
+  }
+  .container{
+  background-color: rgba(255,255,255,0.4);
+
+  }
+  .mainText{
+    font-size: 1.5em;
+  }
+
+  #contactInfo{
+    margin-left: -3%;
+  }
+
+  #footer{
+    color:red;
+    font-size: .9em;
+    margin-top: 45px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+  .smallScreen{
+    display: none;
+  }
+}
+
+@media (max-width: 799px) {
+  body { 
+  background: url('images/background2.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 45px;
+}
+  #logo {
+    display: none;
+  }
+  .regularScreen{
+    display: none;
+  }
+  .smallScreen{
+    display: block;
+    margin:0 auto;
+    
+    
+  }
+  .mainText{
+  font-size: 1em;
+  }
+  
+  #smallScreenHeader{
+    font-size: 1em;
+  }
+  #footer{
+    color:red;
+    font-size: .9em;
+    margin-top: 45px;
+  }
+  .container{
+    margin-top: 30px;
+  }
+
+}
